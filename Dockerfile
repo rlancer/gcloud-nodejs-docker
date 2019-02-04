@@ -1,5 +1,8 @@
 FROM node:10
 
+
+RUN npm i -g install-me-maybe
+
 ARG CLOUD_SDK_VERSION=229.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
 
@@ -27,3 +30,4 @@ RUN apt-get update -qqy && apt-get install -qqy \
     gcloud --version
 
 VOLUME ["/root/.config"]
+
