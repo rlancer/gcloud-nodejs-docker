@@ -2,7 +2,7 @@
 
 View on Docker Hub - https://hub.docker.com/r/rlancer/gcloud-node
 
-## Included in tag 1.0.1
+## Included in tag 1.0.2
 * **NodeJS@10.15.3- NPM@6.9.0**  
 * **gcloud command-line tool@241.0.0** - https://cloud.google.com/sdk/gcloud/
 * **gae-ayaml-env@0.0.19** - https://www.npmjs.com/package/gae-ayaml-env - app.yaml generator for populating enviorment varibles in the CI / CD process 
