@@ -1,9 +1,16 @@
 # AppEngine GitLab - CI / CD Base Image 
 
+RUN npm i -g install-me-maybe@
+RUN npm i -g npm i gae-ayaml-env@0.0.19
+
+ARG CLOUD_SDK_VERSION=241.0.0
+
+
 ## Includes 
-* **gcloud command-line tool** - https://cloud.google.com/sdk/gcloud/
-* **gae-ayaml-env** - https://www.npmjs.com/package/gae-ayaml-env - app.yaml generator for populating enviorment varibles in the CI / CD process 
-* **install me maybe** - https://www.npmjs.com/package/install-me-maybe, prevents having to install node modules twice if the previous version has been cached (currently GitLab's CI / CD GKE runner does not support caching)
+
+* **gcloud command-line tool@241.0.0** - https://cloud.google.com/sdk/gcloud/
+* **gae-ayaml-env@0.0.19** - https://www.npmjs.com/package/gae-ayaml-env - app.yaml generator for populating enviorment varibles in the CI / CD process 
+* **install me maybe@0.0.3** - https://www.npmjs.com/package/install-me-maybe, prevents having to install node modules twice if the previous version has been cached (currently GitLab's CI / CD GKE runner does not support caching)
 
 
 ## Example useage 
