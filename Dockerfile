@@ -1,9 +1,10 @@
 FROM node:10
 
 
-RUN npm i -g install-me-maybe
+RUN npm i -g install-me-maybe@0.0.3
+RUN npm i -g npm i gae-ayaml-env@0.0.19
 
-ARG CLOUD_SDK_VERSION=229.0.0
+ARG CLOUD_SDK_VERSION=241.0.0
 ENV CLOUD_SDK_VERSION=$CLOUD_SDK_VERSION
 
 ARG INSTALL_COMPONENTS
