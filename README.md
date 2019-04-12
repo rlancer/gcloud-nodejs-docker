@@ -1,11 +1,5 @@
 # AppEngine GitLab - CI / CD Base Image 
 
-RUN npm i -g install-me-maybe@
-RUN npm i -g npm i gae-ayaml-env@0.0.19
-
-ARG CLOUD_SDK_VERSION=241.0.0
-
-
 ## Includes 
 
 * **gcloud command-line tool@241.0.0** - https://cloud.google.com/sdk/gcloud/
