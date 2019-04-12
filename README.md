@@ -11,7 +11,7 @@
 
 ```yaml
 deploy:
-  image: "rlancer/gcloud-node:LTS-229"
+  image: "rlancer/gcloud-node:1.0.1"
   script:
     - install-me-maybe # or npm i
     - npm run build
