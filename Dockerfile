@@ -1,6 +1,6 @@
 FROM node:10
 
-
+RUN npm i -g npm@6.9.0
 RUN npm i -g install-me-maybe@0.0.3
 RUN npm i -g npm i gae-ayaml-env@0.0.19
 
