@@ -1,6 +1,6 @@
 # AppEngine GitLab - CI / CD Base Image 
 
-## Includes in tag 1.0.1
+## Included in tag 1.0.1
 
 * **gcloud command-line tool@241.0.0** - https://cloud.google.com/sdk/gcloud/
 * **gae-ayaml-env@0.0.19** - https://www.npmjs.com/package/gae-ayaml-env - app.yaml generator for populating enviorment varibles in the CI / CD process 
